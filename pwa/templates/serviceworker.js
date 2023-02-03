@@ -2,8 +2,7 @@
 
 var staticCacheName = "django-pwa-v" + new Date().getTime();
 var filesToCache = [
-    '/offline/',
-];
+    '/offline/',];
 
 // Cache on install
 self.addEventListener("install", event => {
